@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "github>harvester/dependency-automation:renovate"
+  ],
+  "baseBranchPatterns": [
+    "harvester-dev"
+  ],
+  "dockerfile": {
+    "fileMatch": [
+      "^Dockerfile$"
+    ]
+  }
+}
