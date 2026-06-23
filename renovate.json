@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>pohanhuang/dependency-automation:renovate"
+    "github>pohanhuang/renovate:renovate"
   ],
   "baseBranches": [
     "harvester-dev"
